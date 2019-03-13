@@ -1,0 +1,1383 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)https://moodle.wit.ie/mod/book/view.php?id=2033726&chapterid=62834 -->
+<html dir="ltr" lang="en" xml:lang="en" class="yui3-js-enabled gr__moodle_wit_ie"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Lab 2: HTML &amp; CSS:  : Environment Setup </title>
+    <link rel="shortcut icon" href="https://moodle.wit.ie/theme/image.php/wit/theme/1543826949/favicon">
+    
+<meta name="keywords" content="moodle, Lab 2: HTML &amp; CSS:  : Environment Setup ">
+<link rel="stylesheet" type="text/css" href="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/combo"><script async="" src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/analytics.js"></script><link charset="utf-8" rel="stylesheet" id="yui_3_17_2_1_1548088864538_8" href="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/combo(1)"><script charset="utf-8" id="yui_3_17_2_1_1548088864538_9" src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/combo(2)" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1548088864538_26" src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/combo(3)" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1548088864538_29" src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/combo(4)" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1548088864538_48" src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/combo(5)" async=""></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/styles.php">
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/moodle.wit.ie","sesskey":"rGFoPJEK71","themerev":"1543826949","slasharguments":1,"theme":"wit","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1543826949","admin":"admin","svgicons":true,"usertimezone":"Europe\/Dublin","contextid":3125942};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/moodle.wit.ie\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/moodle.wit.ie\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/moodle.wit.ie\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/moodle.wit.ie\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/moodle.wit.ie\/theme\/yui_combo.php?m\/1543826949\/","combine":true,"comboBase":"https:\/\/moodle.wit.ie\/theme\/yui_combo.php?","ext":false,"root":"m\/1543826949\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_checklist-linkselect":{"requires":["node","event-valuechange"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-format_simple-section":{"requires":["base","node","anim"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_snippet-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/moodle.wit.ie\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/moodle.wit.ie\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1543826949\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/moodle.wit.ie\/lib\/javascript.php\/1543826949\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/moodle.wit.ie\/lib\/javascript.php\/1543826949\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.2\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<link href="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/css" rel="stylesheet" type="text/css">
+
+<link href="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/css(1)" rel="stylesheet" type="text/css">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5259392-12', 'wit.ie');
+  ga('send', 'pageview');
+
+</script>
+<meta name="google-site-verification" content="N9DfSduIrvjRn_kWZhwSbrWk_CWRs2CBzKblv94DzuQ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core/first" src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/requirejs.php"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core/event" src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/requirejs(1).php"></script><script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    config: ["Accessible.js", "Safe.js"],
+    errorSettings: { message: ["!"] },
+    skipStartupTypeset: true,
+    messageStyle: "none"
+});
+</script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/javascript.php"></script></head>
+<body id="page-mod-book-view" class="format-simple path-mod path-mod-book safari dir-ltr lang-en yui-skin-sam yui3-skin-sam moodle-wit-ie pagelayout-incourse course-96468 context-3125942 cmid-2033726 category-10282 editing drawer-open-left jsenabled has-region-side-pre used-region-side-pre" data-gr-c-s-loaded="true"><div style="position: absolute; display: none; z-index: 999; top: -999px; left: -999px;" id="yui_3_17_2_1_1548088864538_156" class="yui3-dd-proxy"></div><div id="yui_3_17_2_1_1548088864538_123" class="yui3-dd-shim" style="top: 0px; left: 0px; position: absolute; z-index: 9999; overflow: hidden; background-color: red; display: none; height: 5px; width: 5px;"><div id="block-region-side-pre_shim" style="height: 525px; width: 250px; background-color: yellow; opacity: 0.5; z-index: 1; overflow: hidden; top: -900px; left: -900px; position: absolute;"></div></div>
+
+<div id="page-wrapper">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="https://moodle.wit.ie/mod/book/view.php?id=2033726&amp;chapterid=62834#maincontent">Skip to main content</a>
+</div><script type="text/javascript" src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/combo(6)"></script><script type="text/javascript" src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/javascript(1).php"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+<style>
+.btn-info {
+    color: #fff;
+    background-color: #5bc0de !important;
+    border-color: #5bc0de !important;
+}
+</style>
+
+
+
+    <nav class="fixed-top navbar navbar-light bg-white navbar-expand moodle-has-zindex">
+    
+            <div data-region="drawer-toggle" class="d-inline-block mr-3">
+                <button aria-expanded="true" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-secondary" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true" aria-label=""></i><span class="sr-only">Side panel</span></button>
+            </div>
+    
+            <a href="https://moodle.wit.ie/" class="navbar-brand has-logo
+                    ">
+                    <span class="logo d-none d-sm-inline">
+                        <img src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/moodlewit_small.png" alt="Moodle">
+                    </span>
+                <span class="site-name d-none d-md-inline">Moodle</span>
+            </a>
+    
+            <ul class="navbar-nav d-none d-md-flex">
+                <!-- custom_menu -->
+                
+                <!-- page_heading_menu -->
+                
+            </ul>
+            <ul class="nav navbar-nav ml-auto">
+                <div class="d-none d-lg-block">
+                
+            </div>
+                <!-- navbar_plugin_output -->
+                <li class="nav-item">
+                <div class="popover-region collapsed popover-region-messages" id="nav-message-popover-container" data-userid="224" data-region="popover-region">
+    <div class="popover-region-toggle nav-link" data-region="popover-region-toggle" aria-role="button" aria-controls="popover-region-container-5c45f620200ff5c45f61faedbc23" aria-haspopup="true" aria-label="Show message window with no new messages" tabindex="0">
+                <i class="icon fa fa-comment fa-fw " aria-hidden="true" title="Toggle messages menu" aria-label="Toggle messages menu"></i>
+        <div class="count-container " data-region="count-container">18</div>
+
+    </div>
+    <div id="popover-region-container-5c45f620200ff5c45f61faedbc23" class="popover-region-container" data-region="popover-region-container" aria-expanded="false" aria-hidden="true" aria-label="Notification window" role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Messages</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <div class="newmessage-link">
+            <a href="https://moodle.wit.ie/message/index.php?contactsfirst=1">New message
+            </a>
+        </div>
+        <a class="mark-all-read-button" href="https://moodle.wit.ie/mod/book/view.php?id=2033726&amp;chapterid=62834#" role="button" title="Mark all as read" data-action="mark-all-read">
+            <span class="normal-icon"><i class="icon fa fa-check fa-fw " aria-hidden="true" title="Mark all as read" aria-label="Mark all as read"></i></span>
+            <span class="loading-icon"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " aria-hidden="true" title="Loading" aria-label="Loading"></i></span>
+        </a>
+        <a href="https://moodle.wit.ie/message/edit.php?id=224" title="Message preferences">
+            <i class="icon fa fa-cog fa-fw " aria-hidden="true" title="Message preferences" aria-label="Message preferences"></i>
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="messages" data-region="messages" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+        <div class="empty-message" data-region="empty-message" tabindex="0">No messages</div>
+
+            </div>
+            <span class="loading-icon"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " aria-hidden="true" title="Loading" aria-label="Loading"></i></span>
+        </div>
+                <a class="see-all-link" href="https://moodle.wit.ie/message/index.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">See all</div>
+                    </div>
+                </a>
+    </div>
+</div><div class="popover-region collapsed popover-region-notifications" id="nav-notification-popover-container" data-userid="224" data-region="popover-region">
+    <div class="popover-region-toggle nav-link" data-region="popover-region-toggle" aria-role="button" aria-controls="popover-region-container-5c45f620222d05c45f61faedbc24" aria-haspopup="true" aria-label="Show notification window with no new notifications" tabindex="0">
+                <i class="icon fa fa-bell fa-fw " aria-hidden="true" title="Toggle notifications menu" aria-label="Toggle notifications menu"></i>
+        <div class="count-container hidden" data-region="count-container">0</div>
+
+    </div>
+    <div id="popover-region-container-5c45f620222d05c45f61faedbc24" class="popover-region-container" data-region="popover-region-container" aria-expanded="false" aria-hidden="true" aria-label="Notification window" role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Notifications</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <a class="mark-all-read-button" href="https://moodle.wit.ie/mod/book/view.php?id=2033726&amp;chapterid=62834#" title="Mark all as read" data-action="mark-all-read" role="button">
+            <span class="normal-icon"><i class="icon fa fa-check fa-fw " aria-hidden="true" title="Mark all as read" aria-label="Mark all as read"></i></span>
+            <span class="loading-icon"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " aria-hidden="true" title="Loading" aria-label="Loading"></i></span>
+        </a>
+        <a href="https://moodle.wit.ie/message/notificationpreferences.php?userid=224" title="Notification preferences">
+            <i class="icon fa fa-cog fa-fw " aria-hidden="true" title="Notification preferences" aria-label="Notification preferences"></i>
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications" data-region="all-notifications" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">You have no notifications</div>
+
+            </div>
+            <span class="loading-icon"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " aria-hidden="true" title="Loading" aria-label="Loading"></i></span>
+        </div>
+                <a class="see-all-link" href="https://moodle.wit.ie/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">See all</div>
+                    </div>
+                </a>
+    </div>
+</div>
+                </li>
+                <!-- user_menu -->
+                <li class="nav-item d-flex align-items-center">
+                    <div class="usermenu"><div class="action-menu moodle-actionmenu nowrap-items d-inline" id="action-menu-2" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar d-flex " id="action-menu-2-menubar" role="menubar">
+
+            
+
+
+                <div class="action-menu-trigger">
+                    <div class="dropdown">
+                        <a href="https://moodle.wit.ie/mod/book/view.php?id=2033726&amp;chapterid=62834#" class=" dropdown-toggle" id="dropdown-2" title="" role="menuitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            
+                            <span class="userbutton"><span class="usertext mr-1">Frank X Walsh</span><span class="avatars"><span class="avatar current"><img src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/f2.png" alt="Picture of Frank X Walsh" title="Picture of Frank X Walsh" class="userpicture defaultuserpic" width="35" height="35" role="presentation"></span></span></span>
+                                
+                            <b class="caret"></b>
+                        </a>
+                            <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-2-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-2" role="menu" data-align="tr-br">
+                                        <a href="https://moodle.wit.ie/my/" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-3">
+                                                <i class="icon fa fa-tachometer fa-fw " aria-hidden="true" title="My Home" aria-label="My Home"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-3">
+                                                My Home
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="https://moodle.wit.ie/user/profile.php?id=224" class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-4">
+                                                <i class="icon fa fa-user fa-fw " aria-hidden="true" title="Profile" aria-label="Profile"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-4">
+                                                Profile
+                                            </span>
+                                        </a>
+                                        <a href="https://moodle.wit.ie/grade/report/overview/index.php" class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-5">
+                                                <i class="icon fa fa-table fa-fw " aria-hidden="true" title="Grades" aria-label="Grades"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-5">
+                                                Grades
+                                            </span>
+                                        </a>
+                                        <a href="https://moodle.wit.ie/message/index.php" class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-6">
+                                                <i class="icon fa fa-comment fa-fw " aria-hidden="true" title="Messages" aria-label="Messages"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-6">
+                                                Messages
+                                            </span>
+                                        </a>
+                                        <a href="https://moodle.wit.ie/user/preferences.php" class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-7">
+                                                <i class="icon fa fa-wrench fa-fw " aria-hidden="true" title="Preferences" aria-label="Preferences"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-7">
+                                                Preferences
+                                            </span>
+                                        </a>
+                                        <a href="https://moodle.wit.ie/login/logout.php?sesskey=rGFoPJEK71" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-8">
+                                                <i class="icon fa fa-sign-out fa-fw " aria-hidden="true" title="Log out" aria-label="Log out"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-8">
+                                                Log out
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="https://moodle.wit.ie/course/switchrole.php?id=96468&amp;switchrole=-1&amp;returnurl=%2Fmod%2Fbook%2Fview.php%3Fid%3D2033726%26chapterid%3D62834" class="dropdown-item menu-action" role="menuitem" data-title="switchroleto,moodle" aria-labelledby="actionmenuaction-9">
+                                                <i class="icon fa fa-user-secret fa-fw " aria-hidden="true" title="Switch role to..." aria-label="Switch role to..."></i>
+                                            <span class="menu-action-text" id="actionmenuaction-9">
+                                                Switch role to...
+                                            </span>
+                                        </a>
+                            </div>
+                    </div>
+                </div>
+
+        </div>
+
+</div></div>
+                </li>
+            </ul>
+            <!-- search_box -->
+    </nav>
+    
+
+    <div id="page" class="container-fluid">
+        <header id="page-header" class="row"><div class="col-xs-12 p-a-1"><div class="card"><div class="card-block"><div class="pull-xs-right context-header-settings-menu"></div><div class="pull-xs-left"><div class="context_container"><div id="course-header"><img src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/no-course-img.png" class="course-image" alt="Course Image"></div></div><div class="page-context-header"><div class="page-header-headings"><h1>Enterprise Web Development-85267-[2016-2017]</h1></div></div><div class="clearfix w-100" id="page-navbar"><div class="breadcrumb-nav"><nav role="navigation">
+    <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="https://moodle.wit.ie/my/">My Home</a></li>
+                <li class="breadcrumb-item"><a href="https://moodle.wit.ie/course/index.php">Modules</a></li>
+                <li class="breadcrumb-item"><a href="https://moodle.wit.ie/course/view.php?id=96468" title="Enterprise Web Development-85267-[2016-2017]">Enterprise Web Development-85267-[2016-2017]</a></li>
+                <li class="breadcrumb-item"><a href="https://moodle.wit.ie/course/view.php?id=96468&amp;section=2">Week 2</a></li>
+                <li class="breadcrumb-item"><a href="https://moodle.wit.ie/mod/book/view.php?id=2033726" title="Book">Lab 2: HTML &amp; CSS</a></li>
+    </ol>
+</nav></div><div class="breadcrumb-button pull-xs-right customise-this-page"><div class="singlebutton">
+    <form method="post" action="https://moodle.wit.ie/mod/book/view.php">
+            <input type="hidden" name="id" value="2033726">
+            <input type="hidden" name="chapterid" value="62834">
+            <input type="hidden" name="edit" value="0">
+            <input type="hidden" name="sesskey" value="rGFoPJEK71">
+        <button type="submit" class="btn btn-secondary" id="single_button5c45f61faedbc9" title="">Turn editing off</button>
+    </form>
+</div></div></div></div></div></div></div></header>
+
+        <div id="page-content" class="row">
+            <div id="region-main-box" class="col-12">
+                <div id="region-main-settings-menu" class="d-print-none has-blocks">
+                    <div> <div class="action-menu moodle-actionmenu d-inline" id="action-menu-4" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar d-flex " id="action-menu-4-menubar" role="menubar">
+
+            
+
+
+                <div class="action-menu-trigger">
+                    <div class="dropdown">
+                        <a href="https://moodle.wit.ie/mod/book/view.php?id=2033726&amp;chapterid=62834#" class=" dropdown-toggle" id="dropdown-4" title="Actions" role="menuitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            
+                            
+<i class="icon fa fa-cog fa-fw " aria-hidden="true" aria-label=""></i>                                
+                        </a>
+                            <div class="dropdown-menu dropdown-menu-right menu align-tr-br" id="action-menu-4-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-4" role="menu" data-align="tr-br">
+                                            <div class="dropdown-item">
+
+    <a href="https://moodle.wit.ie/mod/book/view.php?id=2033726&amp;chapterid=62834&amp;edit=0&amp;sesskey=rGFoPJEK71" id="action_link5c45f61faedbc34" class="" role="menuitem"><i class="icon fa fa-fw fa-fw " aria-hidden="true" aria-label=""></i>Turn editing off</a>
+
+
+
+</div>
+                                            <div class="dropdown-item">
+
+    <a href="https://moodle.wit.ie/course/modedit.php?update=2033726&amp;return=1" id="action_link5c45f61faedbc35" class="" role="menuitem"><i class="icon fa fa-fw fa-fw " aria-hidden="true" aria-label=""></i>Edit settings</a>
+
+
+
+</div>
+                                            <div class="dropdown-item">
+
+    <a href="https://moodle.wit.ie/admin/roles/assign.php?contextid=3125942" id="action_link5c45f61faedbc36" class="" role="menuitem"><i class="icon fa fa-fw fa-fw " aria-hidden="true" aria-label=""></i>Locally assigned roles</a>
+
+
+
+</div>
+                                            <div class="dropdown-item">
+
+    <a href="https://moodle.wit.ie/admin/roles/permissions.php?contextid=3125942" id="action_link5c45f61faedbc37" class="" role="menuitem"><i class="icon fa fa-fw fa-fw " aria-hidden="true" aria-label=""></i>Permissions</a>
+
+
+
+</div>
+                                            <div class="dropdown-item">
+
+    <a href="https://moodle.wit.ie/admin/roles/check.php?contextid=3125942" id="action_link5c45f61faedbc38" class="" role="menuitem"><i class="icon fa fa-fw fa-fw " aria-hidden="true" aria-label=""></i>Check permissions</a>
+
+
+
+</div>
+                                            <div class="dropdown-item">
+
+    <a href="https://moodle.wit.ie/filter/manage.php?contextid=3125942" id="action_link5c45f61faedbc39" class="" role="menuitem"><i class="icon fa fa-fw fa-fw " aria-hidden="true" aria-label=""></i>Filters</a>
+
+
+
+</div>
+                                            <div class="dropdown-item">
+
+    <a href="https://moodle.wit.ie/report/log/index.php?chooselog=1&amp;id=96468&amp;modid=2033726" id="action_link5c45f61faedbc40" class="" role="menuitem"><i class="icon fa fa-fw fa-fw " aria-hidden="true" aria-label=""></i>Logs</a>
+
+
+
+</div>
+                                            <div class="dropdown-item">
+
+    <a href="https://moodle.wit.ie/backup/backup.php?id=96468&amp;cm=2033726" id="action_link5c45f61faedbc41" class="" role="menuitem"><i class="icon fa fa-fw fa-fw " aria-hidden="true" aria-label=""></i>Backup</a>
+
+
+
+</div>
+                                            <div class="dropdown-item">
+
+    <a href="https://moodle.wit.ie/backup/restorefile.php?contextid=3125942" id="action_link5c45f61faedbc42" class="" role="menuitem"><i class="icon fa fa-fw fa-fw " aria-hidden="true" aria-label=""></i>Restore</a>
+
+
+
+</div>
+                                            <div class="dropdown-item">
+
+    <a href="https://moodle.wit.ie/mod/book/tool/importhtml/index.php?id=2033726" id="action_link5c45f61faedbc43" class="" role="menuitem"><i class="icon fa fa-fw fa-fw " aria-hidden="true" aria-label=""></i>Import chapter</a>
+
+
+
+</div>
+                                            <div class="dropdown-item">
+
+    <a href="https://moodle.wit.ie/mod/book/tool/print/index.php?id=2033726" id="action_link5c45f61faedbc44" class="" role="menuitem"><img class="icon " alt="" src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/book.svg">Print book</a>
+
+
+
+</div>
+                                            <div class="dropdown-item">
+
+    <a href="https://moodle.wit.ie/mod/book/tool/print/index.php?id=2033726&amp;chapterid=62834" id="action_link5c45f61faedbc45" class="" role="menuitem"><img class="icon " alt="" src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/chapter.svg">Print this chapter</a>
+
+
+
+</div>
+                            </div>
+                    </div>
+                </div>
+
+        </div>
+
+</div> </div>
+                </div>
+                <section id="region-main" class="has-blocks mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                                <div class="region_main_settings_menu_proxy"></div>
+                            <span class="notifications" id="user-notifications"></span>
+                            <div role="main"><span id="maincontent"></span><h2>Lab 2: HTML &amp; CSS</h2><div class="navtop clearfix navimages"><a title="Previous: 1. : Objectives" class="bookprev" href="https://moodle.wit.ie/mod/book/view.php?id=2033726&amp;chapterid=62831"><i class="icon fa fa-arrow-left fa-fw " aria-hidden="true" title="Previous: 1. : Objectives" aria-label="Previous: 1. : Objectives"></i></a><a title="Next: 3. : Cascading Style Sheets" class="booknext" href="https://moodle.wit.ie/mod/book/view.php?id=2033726&amp;chapterid=62837"><i class="icon fa fa-arrow-right fa-fw " aria-hidden="true" title="Next: 3. : Cascading Style Sheets" aria-label="Next: 3. : Cascading Style Sheets"></i></a></div><div class="box generalbox book_content py-3"><h3>2. : Environment Setup</h3><div class="no-overflow"><link rel="stylesheet" href="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/semantic.min.css" type="text/css">
+
+  <section class="ui segment moodle-book">
+   <p>It is assumed you are using your own personal laptop/device with a standard, reasonably up-to-date operating system (e.g. Linux/IoS/Windows).</p>
+<h2>Browser</h2>
+<p>In order to complete the lab you need a browser that supports HTML5. Most up to date browsers do. We recommend to use Google Chrome as the lab instructions are based on this. </p>
+<h2>Editor</h2>
+<p>You will need a suitable editor to write your code. <a href="http://www.sublimetext.com/" target="_blank">Sublime</a> is recommended. Please download and install on your machine. If you wish, you can use another editor.</p>
+<h2>HTML Folder Structure</h2>
+<p>Create a new folder <em>lab2</em> and create folders <em>images</em>,<em>stylesheets</em> inside <em>lab2</em>. It should look something like this:</p>
+<pre class="ui segment"><code class=" hljs sql">.
++<span class="hljs-comment">-- lab2</span>
+|   +<span class="hljs-comment">--images</span>
+|   +<span class="hljs-comment">--stylesheets</span>
+</code></pre>
+
+<p>You're now ready to create your first web page.</p>
+<h2>Basic HTML Page</h2>
+<p>Create a new file in lab1 called <strong>index.html</strong>. Enter the following HTML code and save.</p>
+<pre class="ui segment"><code class="html hljs "><span class="hljs-doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">h1</span>&gt;</span>Enterprise Web Cars<span class="hljs-tag">&lt;/<span class="hljs-title">h1</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Hello Enterprise Web<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span>
+</code></pre>
+
+<p>Now view this page in your browser by using the open option in the file menu of the browser. You should see the HTML rendered as follows:</p>
+<p><div class="ui segment"><div class="ui ribbon teal top attached label">Figure 1</div><img alt="Figure 1" src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/browser1.png" class="ui image"></div></p>
+<p>You can see the general structure of the page and how the related to the mark up in the HTML code. As you did last week, open Developer Tools in Chrome and you can view HTML source and the rendered page at the same time. In the Elements tab, clicking on each element will result in the corresponding area in the page to be hightlighed. This will allow you to inspect your HTML code.</p>
+<p><div class="ui segment"><div class="ui ribbon teal top attached label">Figure 2</div><img alt="Figure 2" src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/browser2.png" class="ui image"></div></p>
+<h2>Adding Content</h2>
+<p>We'll now add some content to the page.
+Using the lecture slides and the web as a reference, try the following:</p>
+<ul>
+<li>Add a <code>&lt;title&gt;</code> element with the value "Enterprise Web Cars" inside the <code>&lt;head&gt;</code> element.</li>
+<li>Replace the value of the <code>&lt;paragraph&gt;</code> element in the body with the following text:</li>
+</ul>
+<pre class="ui segment"><code class="html hljs ">We have the biggest selection of commercial and private cars in Ireland. Check out our new cars. This week we recommend the <span class="hljs-tag">&lt;<span class="hljs-title">em</span>&gt;</span>Ford Mondeo<span class="hljs-tag">&lt;<span class="hljs-title">em</span>&gt;</span>. What a car!
+</code></pre>
+
+<p>Save and check the changes work in the browser. You should now see the title and some more content on your page.</p>
+<p><div class="ui segment"><div class="ui ribbon teal top attached label">Figure 3</div><img alt="Figure 3" src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/browser3.png" class="ui image"></div></p>
+<h3>Images and Links</h3>
+<p>We will now add some images and links to our web application. Save the following images into the <strong>images</strong> folder inside the lab1 folder (right-click on image and select "Save image as...":</p>
+<p><img alt="" src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/golf.jpg" class="ui image"></p>
+<p><img alt="" src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/mondeo.jpg" class="ui image"></p>
+<p>Now create a new folder, "stock" in the lab1 folder. In the stock folder create the a new file, cars.html, that contains the following html:</p>
+<pre class="ui segment"><code class="html hljs "><span class="hljs-tag">&lt;<span class="hljs-title">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">title</span>&gt;</span> Enterprise Web Cars: New Cars <span class="hljs-tag">&lt;/<span class="hljs-title">title</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">h2</span>&gt;</span>Ford Mondeo<span class="hljs-tag">&lt;/<span class="hljs-title">h2</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">img</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"../images/mondeo.jpg"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Traction control, Radio/CD/MP3, Outside temperature meter, Multi function steering wheel, Isofix child seat anchor points, Immobiliser,                    Heated screen.<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">h2</span>&gt;</span>Volkswagen Golf<span class="hljs-tag">&lt;/<span class="hljs-title">h2</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">img</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"../images/golf.jpg"</span>&gt;</span>
+     <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>ABS, Driver Airbag, Passenger Airbag, Side Airbag, Child Locks, Deadlocks, Flat Tyre Indicator, ISO Fix, Multiple Airbags, Side Impact Protection, Xenon Headlights. <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"../index.html"</span>&gt;</span>Home<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span>
+</code></pre>
+
+<p>Notice how the src attributes in the <code>&lt;img&gt;</code> elements use relative addessing to reference the image files. 
+Now return to your <em>index.html</em> page and update the paragraph text to include a link to this page as follows:</p>
+<pre class="ui segment"><code class="html hljs ">We have the biggest selection of commercial and private cars in Ireland. Check out our <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"stock/cars.html"</span>&gt;</span> new cars<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>.
+This week we recommend <span class="hljs-tag">&lt;<span class="hljs-title">em</span>&gt;</span>the Ford Mondeo<span class="hljs-tag">&lt;/<span class="hljs-title">em</span>&gt;</span>. What a car!
+</code></pre>
+
+<p>Create another folder, "about" in the lab1 folder. In the stock folder create the a new file, <em>directions.html</em>, that contains the following html:</p>
+<pre class="ui segment"><code class="html hljs "><span class="hljs-tag">&lt;<span class="hljs-title">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">title</span>&gt;</span>Enterprise Web Cars: Directions<span class="hljs-tag">&lt;/<span class="hljs-title">title</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">h1</span>&gt;</span>Directions<span class="hljs-tag">&lt;/<span class="hljs-title">h1</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Take the 305 S exit to Waterford go 0.4 mi<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Continue on 305 go 12 mi<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Turn right at Structure Ave N go 0.6 mi<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Turn right and head toward Structure Ave N go 0.0 mi<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Turn right at Structure Ave N go 0.7 mi<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Continue on Structure Ave S go 0.2 mi<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Turn right at SW Presentation Way go 0.0 mi<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"../index.html"</span>&gt;</span>Home<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span>
+</code></pre>
+
+<p>In index.hml, enter the following code after first paragraph to create a "Directions" section on the page:</p>
+<pre class="ui segment"><code class="html hljs "> <span class="hljs-tag">&lt;<span class="hljs-title">h2</span>&gt;</span>Directions<span class="hljs-tag">&lt;/<span class="hljs-title">h2</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      You'll find us right in the center of Waterford. If you need help finding
+      us, check out our
+      <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"about/directions.html"</span>&gt;</span>detailed directions<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>.
+      Come join us!
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+</code></pre>
+
+<p>Now try the web application out, making sure the links work and images appear correctly. </p>
+<h2>Menu Bar</h2>
+<p>The site should offer clear navigation. While it's good to have links in the text, we will also create a "nav bar" at the top of the screen with the same links.</p>
+<p>Add the following HTML code just inside the <code>&lt;body&gt;</code> element. This contains an unordered list of links to the other pages in the site.</p>
+<pre class="ui segment"><code class="html hljs "><span class="hljs-tag">&lt;<span class="hljs-title">nav</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span>&gt;</span>Home<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span> |
+    <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"./stock/cars.html"</span>&gt;</span>Cars<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span> |
+    <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"./about/directions.html"</span>&gt;</span>Directions<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span> |
+<span class="hljs-tag">&lt;/<span class="hljs-title">nav</span>&gt;</span>
+</code></pre>
+
+<p>Add a navigation bar to the other two pages also. You will need to adjust the links relative to each page.</p>
+<h2>Favicon Icon</h2>
+<p>Finally, we'll add a <a href="http://en.wikipedia.org/wiki/Favicon" target="_blank">Favicon icon</a> to our pages. A Favicon is a favorite icon associated with a particular page or organisation. It's the icon that appears on the browser tabs beside the title. Download the following icon to your images folder.</p>
+<p><img alt="" src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/favicon.ico" class="ui image">
+<a href="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/favicon.ico">Car Favicon</a></p>
+<p>Now, in the <code>&lt;head&gt;</code> element, link to the icon by entering the following link element:</p>
+<pre class="ui segment"><code class="html hljs "> <span class="hljs-tag">&lt;<span class="hljs-title">link</span> <span class="hljs-attribute">rel</span>=<span class="hljs-value">"icon"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"images/favicon.ico"</span>&gt;</span>
+</code></pre>
+
+<p>As with the menu bar, replicate this in the other pages.
+We'll now move on to apply some style to our page using CSS...</p>
+  </section>
+    <script src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/jquery-2.1.1.min.js"></script> 
+    <link href="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/solarized_light.min.css" rel="stylesheet"> 
+    <script src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/highlight.min.js"></script>
+    <script src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/java.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <script>
+
+function addCaptions() {
+  var images = $(".moodle-book img");
+  jQuery.each(images, function(i)  {
+    if((images[i].alt).length > 0) 
+    {
+      var div_img = $(document.createElement("div")).addClass("ui segment");
+      $(images[i]).wrap(div_img);
+      var div_label = $(document.createElement("div")).addClass("ui ribbon teal top attached label");
+      div_label.append(images[i].alt);
+      $(div_label).insertBefore(images[i]);
+    }
+  });
+};
+
+// Need to check if we have already been loaded
+seen = 0;
+
+$(document).ready(function()
+{ 
+  if (seen == 0)
+  { 
+    // not loaded before - so do the restyling once (need to moodle book print)
+    $(".moodle-book img").addClass ("ui image");
+    $(".moodle-book pre").addClass ("ui segment");
+    addCaptions();
+    seen = 1;
+  }
+
+
+})    </script>
+    
+   </div></div><div class="navbottom clearfix navimages"><a title="Previous: 1. : Objectives" class="bookprev" href="https://moodle.wit.ie/mod/book/view.php?id=2033726&amp;chapterid=62831"><i class="icon fa fa-arrow-left fa-fw " aria-hidden="true" title="Previous: 1. : Objectives" aria-label="Previous: 1. : Objectives"></i></a><a title="Next: 3. : Cascading Style Sheets" class="booknext" href="https://moodle.wit.ie/mod/book/view.php?id=2033726&amp;chapterid=62837"><i class="icon fa fa-arrow-right fa-fw " aria-hidden="true" title="Next: 3. : Cascading Style Sheets" aria-label="Next: 3. : Cascading Style Sheets"></i></a></div></div>
+                            <div class="m-t-2 m-b-1">
+<div class="row">
+    <div class="col-md-4">        <div class="pull-left">
+                <a href="https://moodle.wit.ie/mod/resource/view.php?id=2033723&amp;forceview=1" id="prev-activity-link" class="" classes="btn btn-link" title="Slides - HTML5 &amp;amp; CSS">◄ Slides - HTML5 &amp; CSS</a>
+
+        </div>
+</div>
+    <div class="col-md-4">        <div class="mdl-align">
+            <div class="urlselect">
+    <form method="post" action="https://moodle.wit.ie/course/jumpto.php" class="form-inline" id="url_select_f5c45f61faedbc46" data-children-count="1">
+        <input type="hidden" name="sesskey" value="rGFoPJEK71">
+            <label for="jump-to-activity" class="sr-only">
+                Jump to...
+            </label>
+        <select id="jump-to-activity" class="custom-select urlselect" name="jump">
+                    <option value="" selected="">Jump to...</option>
+                    <option value="/mod/forum/view.php?id=1687605&amp;forceview=1">Announcements</option>
+                    <option value="/mod/resource/view.php?id=1974353&amp;forceview=1">Module Overview</option>
+                    <option value="/mod/resource/view.php?id=1976126&amp;forceview=1">JavaScript Fundamentals.</option>
+                    <option value="/mod/resource/view.php?id=1976210&amp;forceview=1">JavaScript Fundamentals.</option>
+                    <option value="/mod/resource/view.php?id=2033723&amp;forceview=1">Slides - HTML5 &amp;amp; CSS</option>
+                    <option value="/mod/url/view.php?id=2033729&amp;forceview=1">Bootstrap</option>
+                    <option value="/mod/resource/view.php?id=2042133&amp;forceview=1">Slides</option>
+                    <option value="/mod/resource/view.php?id=2042139&amp;forceview=1">JS functions / ES2015</option>
+                    <option value="/mod/resource/view.php?id=2050427&amp;forceview=1">Sample solutions</option>
+                    <option value="/mod/resource/view.php?id=2050352&amp;forceview=1">Slides</option>
+                    <option value="/mod/resource/view.php?id=2045235&amp;forceview=1">Introduction to ReactJS</option>
+                    <option value="/mod/resource/view.php?id=2057507&amp;forceview=1">Slides</option>
+                    <option value="/mod/resource/view.php?id=2054657&amp;forceview=1">React data flow patterns</option>
+                    <option value="/mod/resource/view.php?id=2054660&amp;forceview=1">Building React SPAs (Part 1)</option>
+                    <option value="/mod/resource/view.php?id=2063661&amp;forceview=1">Thinking in React</option>
+                    <option value="/mod/resource/view.php?id=2063664&amp;forceview=1">The React Router</option>
+                    <option value="/mod/resource/view.php?id=2065667&amp;forceview=1">Samples Code</option>
+                    <option value="/mod/resource/view.php?id=2064332&amp;forceview=1">Promises</option>
+                    <option value="/mod/resource/view.php?id=2063325&amp;forceview=1">Building React SPAs (Part 2)</option>
+                    <option value="/mod/resource/view.php?id=2063333&amp;forceview=1">Building React SPAs (Part 3)</option>
+                    <option value="/mod/resource/view.php?id=2083259&amp;forceview=1">Slides</option>
+                    <option value="/mod/resource/view.php?id=2083221&amp;forceview=1">Travis CI service.</option>
+                    <option value="/mod/resource/view.php?id=2054811&amp;forceview=1">Specification</option>
+                    <option value="/mod/assign/view.php?id=2076797&amp;forceview=1">Submit Here</option>
+                    <option value="/mod/url/view.php?id=2087705&amp;forceview=1">Specification</option>
+                    <option value="/mod/assign/view.php?id=2087708&amp;forceview=1">Submit assignment 2 here</option>
+        </select>
+            <noscript>
+                <input type="submit" class="btn btn-secondary" value="Go">
+            </noscript>
+    </form>
+</div>
+
+        </div>
+</div>
+    <div class="col-md-4">        <div class="pull-right">
+                <a href="https://moodle.wit.ie/mod/url/view.php?id=2033729&amp;forceview=1" id="next-activity-link" class="" classes="btn btn-link" title="Bootstrap">Bootstrap ►</a>
+
+        </div>
+</div>
+</div>
+</div>
+                            
+                        </div>
+                    </div>
+                </section>
+                <section data-region="blocks-column" class="d-print-none">
+                    <aside id="block-region-side-pre" class="block-region yui3-dd-drop" data-blockregion="side-pre" data-droptarget="1"><a href="https://moodle.wit.ie/mod/book/view.php?id=2033726&amp;chapterid=62834#sb-1" class="sr-only sr-only-focusable">Skip Table of contents</a>
+
+<section id="block-5c45f61fcaf39" class="block block__fake  card mb-3 yui3-dd-drop" role="complementary" data-block="_fake" aria-labelledby="instance-0-header">
+
+    <div class="card-body">
+
+            <h5 id="instance-0-header" class="card-title d-inline">Table of contents</h5>
+
+
+        <div class="card-text content mt-3">
+            <div class="book_toc_numbered clearfix"><ul><li class="clearfix"><a title=": Objectives" href="https://moodle.wit.ie/mod/book/view.php?id=2033726&amp;chapterid=62831">1. : Objectives</a><div class="action-list"><a title="Move chapter down &quot;: Objectives&quot;" href="https://moodle.wit.ie/mod/book/move.php?id=2033726&amp;chapterid=62831&amp;up=0&amp;sesskey=rGFoPJEK71"><i class="icon fa fa-arrow-down fa-fw " aria-hidden="true" title="Move chapter down &quot;1. : Objectives&quot;" aria-label="Move chapter down &quot;1. : Objectives&quot;"></i></a><a title="Edit chapter &quot;: Objectives&quot;" href="https://moodle.wit.ie/mod/book/edit.php?cmid=2033726&amp;id=62831"><i class="icon fa fa-cog fa-fw " aria-hidden="true" title="Edit chapter &quot;1. : Objectives&quot;" aria-label="Edit chapter &quot;1. : Objectives&quot;"></i></a><a href="https://moodle.wit.ie/mod/book/delete.php?id=2033726&amp;chapterid=62831&amp;sesskey=rGFoPJEK71&amp;confirm=1" id="action_link5c45f61faedbc1" class="action-icon" title="Delete chapter &quot;: Objectives&quot;"><i class="icon fa fa-trash fa-fw " aria-hidden="true" title="Delete chapter &quot;1. : Objectives&quot;" aria-label="Delete chapter &quot;1. : Objectives&quot;"></i></a><a title="Hide chapter &quot;: Objectives&quot;" href="https://moodle.wit.ie/mod/book/show.php?id=2033726&amp;chapterid=62831&amp;sesskey=rGFoPJEK71"><i class="icon fa fa-eye fa-fw " aria-hidden="true" title="Hide chapter &quot;1. : Objectives&quot;" aria-label="Hide chapter &quot;1. : Objectives&quot;"></i></a><a title="Add new chapter" href="https://moodle.wit.ie/mod/book/edit.php?cmid=2033726&amp;pagenum=1&amp;subchapter=0"><i class="icon fa fa-plus fa-fw " aria-hidden="true" title="Add new chapter" aria-label="Add new chapter"></i></a></div></li><li class="clearfix"><strong>2. : Environment Setup</strong><div class="action-list"><a title="Move chapter up &quot;: Environment Setup&quot;" href="https://moodle.wit.ie/mod/book/move.php?id=2033726&amp;chapterid=62834&amp;up=1&amp;sesskey=rGFoPJEK71"><i class="icon fa fa-arrow-up fa-fw " aria-hidden="true" title="Move chapter up &quot;2. : Environment Setup&quot;" aria-label="Move chapter up &quot;2. : Environment Setup&quot;"></i></a><a title="Move chapter down &quot;: Environment Setup&quot;" href="https://moodle.wit.ie/mod/book/move.php?id=2033726&amp;chapterid=62834&amp;up=0&amp;sesskey=rGFoPJEK71"><i class="icon fa fa-arrow-down fa-fw " aria-hidden="true" title="Move chapter down &quot;2. : Environment Setup&quot;" aria-label="Move chapter down &quot;2. : Environment Setup&quot;"></i></a><a title="Edit chapter &quot;: Environment Setup&quot;" href="https://moodle.wit.ie/mod/book/edit.php?cmid=2033726&amp;id=62834"><i class="icon fa fa-cog fa-fw " aria-hidden="true" title="Edit chapter &quot;2. : Environment Setup&quot;" aria-label="Edit chapter &quot;2. : Environment Setup&quot;"></i></a><a href="https://moodle.wit.ie/mod/book/delete.php?id=2033726&amp;chapterid=62834&amp;sesskey=rGFoPJEK71&amp;confirm=1" id="action_link5c45f61faedbc2" class="action-icon" title="Delete chapter &quot;: Environment Setup&quot;"><i class="icon fa fa-trash fa-fw " aria-hidden="true" title="Delete chapter &quot;2. : Environment Setup&quot;" aria-label="Delete chapter &quot;2. : Environment Setup&quot;"></i></a><a title="Hide chapter &quot;: Environment Setup&quot;" href="https://moodle.wit.ie/mod/book/show.php?id=2033726&amp;chapterid=62834&amp;sesskey=rGFoPJEK71"><i class="icon fa fa-eye fa-fw " aria-hidden="true" title="Hide chapter &quot;2. : Environment Setup&quot;" aria-label="Hide chapter &quot;2. : Environment Setup&quot;"></i></a><a title="Add new chapter" href="https://moodle.wit.ie/mod/book/edit.php?cmid=2033726&amp;pagenum=2&amp;subchapter=0"><i class="icon fa fa-plus fa-fw " aria-hidden="true" title="Add new chapter" aria-label="Add new chapter"></i></a></div></li><li class="clearfix"><a title=": Cascading Style Sheets" href="https://moodle.wit.ie/mod/book/view.php?id=2033726&amp;chapterid=62837">3. : Cascading Style Sheets</a><div class="action-list"><a title="Move chapter up &quot;: Cascading Style Sheets&quot;" href="https://moodle.wit.ie/mod/book/move.php?id=2033726&amp;chapterid=62837&amp;up=1&amp;sesskey=rGFoPJEK71"><i class="icon fa fa-arrow-up fa-fw " aria-hidden="true" title="Move chapter up &quot;3. : Cascading Style Sheets&quot;" aria-label="Move chapter up &quot;3. : Cascading Style Sheets&quot;"></i></a><a title="Move chapter down &quot;: Cascading Style Sheets&quot;" href="https://moodle.wit.ie/mod/book/move.php?id=2033726&amp;chapterid=62837&amp;up=0&amp;sesskey=rGFoPJEK71"><i class="icon fa fa-arrow-down fa-fw " aria-hidden="true" title="Move chapter down &quot;3. : Cascading Style Sheets&quot;" aria-label="Move chapter down &quot;3. : Cascading Style Sheets&quot;"></i></a><a title="Edit chapter &quot;: Cascading Style Sheets&quot;" href="https://moodle.wit.ie/mod/book/edit.php?cmid=2033726&amp;id=62837"><i class="icon fa fa-cog fa-fw " aria-hidden="true" title="Edit chapter &quot;3. : Cascading Style Sheets&quot;" aria-label="Edit chapter &quot;3. : Cascading Style Sheets&quot;"></i></a><a href="https://moodle.wit.ie/mod/book/delete.php?id=2033726&amp;chapterid=62837&amp;sesskey=rGFoPJEK71&amp;confirm=1" id="action_link5c45f61faedbc3" class="action-icon" title="Delete chapter &quot;: Cascading Style Sheets&quot;"><i class="icon fa fa-trash fa-fw " aria-hidden="true" title="Delete chapter &quot;3. : Cascading Style Sheets&quot;" aria-label="Delete chapter &quot;3. : Cascading Style Sheets&quot;"></i></a><a title="Hide chapter &quot;: Cascading Style Sheets&quot;" href="https://moodle.wit.ie/mod/book/show.php?id=2033726&amp;chapterid=62837&amp;sesskey=rGFoPJEK71"><i class="icon fa fa-eye fa-fw " aria-hidden="true" title="Hide chapter &quot;3. : Cascading Style Sheets&quot;" aria-label="Hide chapter &quot;3. : Cascading Style Sheets&quot;"></i></a><a title="Add new chapter" href="https://moodle.wit.ie/mod/book/edit.php?cmid=2033726&amp;pagenum=3&amp;subchapter=0"><i class="icon fa fa-plus fa-fw " aria-hidden="true" title="Add new chapter" aria-label="Add new chapter"></i></a></div></li><li class="clearfix"><a title=": Bootstrap and Forms" href="https://moodle.wit.ie/mod/book/view.php?id=2033726&amp;chapterid=62840">4. : Bootstrap and Forms</a><div class="action-list"><a title="Move chapter up &quot;: Bootstrap and Forms&quot;" href="https://moodle.wit.ie/mod/book/move.php?id=2033726&amp;chapterid=62840&amp;up=1&amp;sesskey=rGFoPJEK71"><i class="icon fa fa-arrow-up fa-fw " aria-hidden="true" title="Move chapter up &quot;4. : Bootstrap and Forms&quot;" aria-label="Move chapter up &quot;4. : Bootstrap and Forms&quot;"></i></a><a title="Edit chapter &quot;: Bootstrap and Forms&quot;" href="https://moodle.wit.ie/mod/book/edit.php?cmid=2033726&amp;id=62840"><i class="icon fa fa-cog fa-fw " aria-hidden="true" title="Edit chapter &quot;4. : Bootstrap and Forms&quot;" aria-label="Edit chapter &quot;4. : Bootstrap and Forms&quot;"></i></a><a href="https://moodle.wit.ie/mod/book/delete.php?id=2033726&amp;chapterid=62840&amp;sesskey=rGFoPJEK71&amp;confirm=1" id="action_link5c45f61faedbc4" class="action-icon" title="Delete chapter &quot;: Bootstrap and Forms&quot;"><i class="icon fa fa-trash fa-fw " aria-hidden="true" title="Delete chapter &quot;4. : Bootstrap and Forms&quot;" aria-label="Delete chapter &quot;4. : Bootstrap and Forms&quot;"></i></a><a title="Hide chapter &quot;: Bootstrap and Forms&quot;" href="https://moodle.wit.ie/mod/book/show.php?id=2033726&amp;chapterid=62840&amp;sesskey=rGFoPJEK71"><i class="icon fa fa-eye fa-fw " aria-hidden="true" title="Hide chapter &quot;4. : Bootstrap and Forms&quot;" aria-label="Hide chapter &quot;4. : Bootstrap and Forms&quot;"></i></a><a title="Add new chapter" href="https://moodle.wit.ie/mod/book/edit.php?cmid=2033726&amp;pagenum=4&amp;subchapter=0"><i class="icon fa fa-plus fa-fw " aria-hidden="true" title="Add new chapter" aria-label="Add new chapter"></i></a></div></li></ul></div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+  <span id="sb-1"></span><a href="https://moodle.wit.ie/mod/book/view.php?id=2033726&amp;chapterid=62834#sb-2" class="sr-only sr-only-focusable">Skip Online users</a>
+
+<section id="inst164163" class="block block_online_users block_with_controls card mb-3 yui3-dd-drop" role="complementary" data-block="online_users" aria-labelledby="instance-164163-header">
+
+    <div class="card-body">
+
+            <h5 id="instance-164163-header" class="card-title d-inline">Online users</h5>
+
+            <div class="block-controls pull-right header">
+                <div class="action-menu moodle-actionmenu block-control-actions commands d-inline" id="action-menu-0" data-enhance="moodle-core-actionmenu" data-owner="#inst164163">
+
+        <div class="menubar d-flex " id="action-menu-0-menubar" role="menubar">
+
+            
+
+                <div class="action-menu-item">
+    <span title="Move Online users block" tabindex="0" data-draggroups="block" role="button" class="moodle-core-dragdrop-draghandle"><i class="icon fa fa-arrows fa-fw " aria-hidden="true" aria-label="" style="cursor: move;"></i></span>
+                    
+
+                    
+
+
+                </div>
+
+                <div class="action-menu-trigger">
+                    <div class="dropdown">
+                        <a href="https://moodle.wit.ie/mod/book/view.php?id=2033726&amp;chapterid=62834#" class=" dropdown-toggle" id="dropdown-0" title="Actions" role="menuitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            
+                            
+<i class="icon fa fa-cog fa-fw " aria-hidden="true" aria-label=""></i>                                
+                        </a>
+                            <div class="dropdown-menu dropdown-menu-right menu align-tr-br" id="action-menu-0-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-0" role="menu" data-align="tr-br" data-constraint=".block-region">
+                                        <a href="https://moodle.wit.ie/mod/book/view.php?id=2033726&amp;chapterid=62834&amp;sesskey=rGFoPJEK71&amp;bui_editid=164163" class="dropdown-item editing_edit menu-action" role="menuitem" aria-labelledby="actionmenuaction-1">
+                                                <i class="icon fa fa-cog fa-fw " aria-hidden="true" title="Configure Online users block" aria-label="Configure Online users block"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-1">
+                                                Configure Online users block
+                                            </span>
+                                        </a>
+                                        <a href="https://moodle.wit.ie/mod/book/view.php?id=2033726&amp;chapterid=62834&amp;sesskey=rGFoPJEK71&amp;bui_hideid=164163" class="dropdown-item editing_hide menu-action" role="menuitem" aria-labelledby="actionmenuaction-2">
+                                                <i class="icon fa fa-eye fa-fw " aria-hidden="true" title="Hide Online users block" aria-label="Hide Online users block"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-2">
+                                                Hide Online users block
+                                            </span>
+                                        </a>
+                            </div>
+                    </div>
+                </div>
+
+        </div>
+
+</div>
+            </div>
+
+        <div class="card-text content mt-3">
+            <div class="info">1 online user (last 5 minutes)</div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+  <span id="sb-2"></span><a href="https://moodle.wit.ie/mod/book/view.php?id=2033726&amp;chapterid=62834#sb-3" class="sr-only sr-only-focusable">Skip Add a block</a>
+
+<section id="block-5c45f61fcc73f" class="block block_adminblock  card mb-3 yui3-dd-drop" role="complementary" data-block="adminblock" aria-labelledby="instance-0-header">
+
+    <div class="card-body">
+
+            <h5 id="instance-0-header" class="card-title d-inline">Add a block</h5>
+
+
+        <div class="card-text content mt-3">
+            <div class="singleselect d-inline-block">
+    <form method="get" action="https://moodle.wit.ie/mod/book/view.php" class="form-inline" id="add_block" data-children-count="1">
+            <input type="hidden" name="id" value="2033726">
+            <input type="hidden" name="chapterid" value="62834">
+            <input type="hidden" name="sesskey" value="rGFoPJEK71">
+            <label for="single_select5c45f61faedbc5" class="accesshide">
+                Add a block
+            </label>
+        <select id="single_select5c45f61faedbc5" class="custom-select singleselect" name="bui_addblock">
+                    <option data-ignore="" value="" selected="">Add...</option>
+                    <option value="activity_results">Activity results</option>
+                    <option value="attendance">Attendance</option>
+                    <option value="blog_menu">Blog menu</option>
+                    <option value="blog_tags">Blog tags</option>
+                    <option value="comments">Comments</option>
+                    <option value="html">HTML</option>
+                    <option value="myprofile">Logged in user</option>
+                    <option value="mentees">Mentees</option>
+                    <option value="participants">People</option>
+                    <option value="blog_recent">Recent blog entries</option>
+                    <option value="rss_client">Remote RSS feeds</option>
+                    <option value="student_fee">Student fee balance</option>
+                    <option value="tags">Tags</option>
+        </select>
+        <noscript>
+            <input type="submit" class="btn btn-secondary" value="Go">
+        </noscript>
+    </form>
+</div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+  <span id="sb-3"></span></aside>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex " aria-hidden="false" tabindex="-1">
+        <nav class="list-group">
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=96468" data-key="coursehome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Enterprise Web Development-85267-[2016-2017]</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/user/index.php?id=96468" data-key="participants" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="90" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="96468">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-users fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Participants</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/grade/report/index.php?id=96468" data-key="grades" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="96468">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-table fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Grades</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=96468&amp;section=1" data-key="1460775" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="96468">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Week 1</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action active " href="https://moodle.wit.ie/course/view.php?id=96468&amp;section=2" data-key="1460778" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="96468">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body font-weight-bold">Week 2</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=96468&amp;section=3" data-key="1460781" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="96468">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Week 3.</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=96468&amp;section=4" data-key="1460784" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="96468">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Week 4</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=96468&amp;section=5" data-key="1460787" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="96468">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Week 5</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=96468&amp;section=6" data-key="1460793" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="96468">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Week 6</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=96468&amp;section=7" data-key="1460796" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="96468">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Week 7</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=96468&amp;section=8" data-key="1460799" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="96468">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Week 8</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=96468&amp;section=9" data-key="1460802" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="96468">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Week 9</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=96468&amp;section=10" data-key="1460805" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="96468">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Week 10</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=96468&amp;section=11" data-key="1460808" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="96468">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Week 11</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=96468&amp;section=12" data-key="1460811" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="96468">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Week 12</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=96468&amp;section=13" data-key="1460790" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="96468">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Assessment</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  list-group-item-hidden" href="https://moodle.wit.ie/course/view.php?id=96468&amp;section=14" data-key="1460814" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="1" data-preceedwithhr="0" data-parent-key="96468">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Section 14</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  list-group-item-hidden" href="https://moodle.wit.ie/course/view.php?id=96468&amp;section=15" data-key="1460817" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="1" data-preceedwithhr="0" data-parent-key="96468">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Section 15</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  list-group-item-hidden" href="https://moodle.wit.ie/course/view.php?id=96468&amp;section=16" data-key="1460820" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="1" data-preceedwithhr="0" data-parent-key="96468">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Section 16</span>
+                    </div>
+                </div>
+            </a>
+        </nav>
+        <nav class="list-group m-t-1">
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/my/" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="1" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-tachometer fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">My Home</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/?redirect=0" data-key="home" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="myhome">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-home fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Site news</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/calendar/view.php?view=month&amp;course=96468" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-calendar fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Calendar</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/user/files.php" data-key="privatefiles" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-file-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Private files</span>
+                    </div>
+                </div>
+            </a>
+            <div class="list-group-item" data-key="mycourses" data-isexpandable="1" data-indent="0" data-showdivider="0" data-type="0" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="myhome">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body">My modules</span>
+                    </div>
+                </div>
+            </div>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=128065" data-key="128065" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                <div class="m-l-1">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">MSc Dissertation Proposals-[2018-2019]</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=127136" data-key="127136" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                <div class="m-l-1">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Research Methodology &amp; Literature Review-70867_C-[2018-2019]</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=127372" data-key="127372" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                <div class="m-l-1">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Final Year Projects for Computing and Maths Dept-[2018-2019]</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=141024" data-key="141024" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                <div class="m-l-1">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Enterprise Web Development-91689-[2018-2019]</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=139371" data-key="139371" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                <div class="m-l-1">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Dissertation-85322-[2018-2019]</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=126000" data-key="126000" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                <div class="m-l-1">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Enterprise Web Development-85205-[2018-2019]</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=141402" data-key="141402" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                <div class="m-l-1">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">IoT Standards &amp; Protocols-95544-[2018-2019]</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=126154" data-key="126154" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                <div class="m-l-1">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">IoT Standards &amp; Protocols-89873-[2018-2019]</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=126164" data-key="126164" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                <div class="m-l-1">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Advanced Driver Assistance Systems-89918-[2018-2019]</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=141156" data-key="141156" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                <div class="m-l-1">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Project 2 (Development_-92025-[2018-2019]</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=118143" data-key="118143" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                <div class="m-l-1">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Higher Diploma in Computer Science</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/course/view.php?id=101829" data-key="101829" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                <div class="m-l-1">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Using Adobe Connect</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://moodle.wit.ie/my/?myoverviewtab=courses" data-key="courseindexpage" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                <div class="m-l-1">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-fw fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">More...</span>
+                    </div>
+                </div>
+            </a>
+        </nav>
+    </div>
+</div><div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div>
+
+<footer id="page-footer" class="py-3 bg-dark text-light">
+    <div class="container">
+        <div id="course-footer"></div>
+
+            <p class="helplink"><a href="http://docs.moodle.org/35/en/mod/book/view"><i class="icon fa fa-info-circle fa-fw iconhelp icon-pre" aria-hidden="true" aria-label=""></i>Moodle Docs for this page</a></p>
+
+        <div class="logininfo">You are logged in as <a href="https://moodle.wit.ie/user/profile.php?id=224" title="View profile">Frank X Walsh</a> (<a href="https://moodle.wit.ie/login/logout.php?sesskey=rGFoPJEK71">Log out</a>)</div>
+        <div class="tool_usertours-resettourcontainer"></div>
+        <div class="homelink"><a href="https://moodle.wit.ie/course/view.php?id=96468">Enterprise Web Development-85267-[2016-2017]</a></div>
+        <nav class="nav navbar-nav d-md-none">
+                <ul class="list-unstyled pt-3">
+                </ul>
+        </nav>
+        <a href="https://download.moodle.org/mobile?version=2018051701&amp;lang=en&amp;iosappid=633359593&amp;androidappid=com.moodle.moodlemobile">Get the mobile app</a>
+        <script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://moodle.wit.ie/lib/requirejs.php/1543826949/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://moodle.wit.ie/lib/javascript.php/1543826949/lib/jquery/jquery-3.2.1.min',
+        jqueryui: 'https://moodle.wit.ie/lib/javascript.php/1543826949/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://moodle.wit.ie/lib/javascript.php/1543826949/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="./Lab 2_ HTML &amp; CSS_ _ Environment Setup_files/javascript(2).php"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://moodle.wit.ie/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("en",{
+ "Audio Player": "Audio Player",
+ "Video Player": "Video Player",
+ "Play": "Play",
+ "Pause": "Pause",
+ "Replay": "Replay",
+ "Current Time": "Current Time",
+ "Duration Time": "Duration Time",
+ "Remaining Time": "Remaining Time",
+ "Stream Type": "Stream Type",
+ "LIVE": "LIVE",
+ "Loaded": "Loaded",
+ "Progress": "Progress",
+ "Progress Bar": "Progress Bar",
+ "progress bar timing: currentTime={1} duration={2}": "{1} of {2}",
+ "Fullscreen": "Fullscreen",
+ "Non-Fullscreen": "Non-Fullscreen",
+ "Mute": "Mute",
+ "Unmute": "Unmute",
+ "Playback Rate": "Playback Rate",
+ "Subtitles": "Subtitles",
+ "subtitles off": "subtitles off",
+ "Captions": "Captions",
+ "captions off": "captions off",
+ "Chapters": "Chapters",
+ "Descriptions": "Descriptions",
+ "descriptions off": "descriptions off",
+ "Audio Track": "Audio Track",
+ "Volume Level": "Volume Level",
+ "You aborted the media playback": "You aborted the media playback",
+ "A network error caused the media download to fail part-way.": "A network error caused the media download to fail part-way.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "The media could not be loaded, either because the server or network failed or because the format is not supported.",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.",
+ "No compatible source was found for this media.": "No compatible source was found for this media.",
+ "The media is encrypted and we do not have the keys to decrypt it.": "The media is encrypted and we do not have the keys to decrypt it.",
+ "Play Video": "Play Video",
+ "Close": "Close",
+ "Close Modal Dialog": "Close Modal Dialog",
+ "Modal Window": "Modal Window",
+ "This is a modal window": "This is a modal window",
+ "This modal can be closed by pressing the Escape key or activating the close button.": "This modal can be closed by pressing the Escape key or activating the close button.",
+ ", opens captions settings dialog": ", opens captions settings dialog",
+ ", opens subtitles settings dialog": ", opens subtitles settings dialog",
+ ", opens descriptions settings dialog": ", opens descriptions settings dialog",
+ ", selected": ", selected",
+ "captions settings": "captions settings",
+ "subtitles settings": "subititles settings",
+ "descriptions settings": "descriptions settings",
+ "Text": "Text",
+ "White": "White",
+ "Black": "Black",
+ "Red": "Red",
+ "Green": "Green",
+ "Blue": "Blue",
+ "Yellow": "Yellow",
+ "Magenta": "Magenta",
+ "Cyan": "Cyan",
+ "Background": "Background",
+ "Window": "Window",
+ "Transparent": "Transparent",
+ "Semi-Transparent": "Semi-Transparent",
+ "Opaque": "Opaque",
+ "Font Size": "Font Size",
+ "Text Edge Style": "Text Edge Style",
+ "None": "None",
+ "Raised": "Raised",
+ "Depressed": "Depressed",
+ "Uniform": "Uniform",
+ "Dropshadow": "Dropshadow",
+ "Font Family": "Font Family",
+ "Proportional Sans-Serif": "Proportional Sans-Serif",
+ "Monospace Sans-Serif": "Monospace Sans-Serif",
+ "Proportional Serif": "Proportional Serif",
+ "Monospace Serif": "Monospace Serif",
+ "Casual": "Casual",
+ "Script": "Script",
+ "Small Caps": "Small Caps",
+ "Reset": "Reset",
+ "restore all settings to the default values": "restore all settings to the default values",
+ "Done": "Done",
+ "Caption Settings Dialog": "Caption Settings Dialog",
+ "Beginning of dialog window. Escape will cancel and close the window.": "Beginning of dialog window. Escape will cancel and close the window.",
+ "End of dialog window.": "End of dialog window."
+});
+
+    });
+});;
+
+    require(['core/yui'], function(Y) {
+            Y.on('click', M.util.show_confirm_dialog, '#action_link5c45f61faedbc1', null, {"message":"Delete chapter \": Objectives\"","continuelabel":null,"cancellabel":null});
+    });
+;
+
+    require(['core/yui'], function(Y) {
+            Y.on('click', M.util.show_confirm_dialog, '#action_link5c45f61faedbc2', null, {"message":"Delete chapter \": Environment Setup\"","continuelabel":null,"cancellabel":null});
+    });
+;
+
+    require(['core/yui'], function(Y) {
+            Y.on('click', M.util.show_confirm_dialog, '#action_link5c45f61faedbc3', null, {"message":"Delete chapter \": Cascading Style Sheets\"","continuelabel":null,"cancellabel":null});
+    });
+;
+
+    require(['core/yui'], function(Y) {
+            Y.on('click', M.util.show_confirm_dialog, '#action_link5c45f61faedbc4', null, {"message":"Delete chapter \": Bootstrap and Forms\"","continuelabel":null,"cancellabel":null});
+    });
+;
+
+require(['jquery'], function($) {
+    $('#single_select5c45f61faedbc5').change(function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#add_block').submit();
+        }
+    });
+});
+;
+function legacy_activity_onclick_handler_1(e) { e.halt(); window.open('https://moodle.wit.ie/mod/resource/view.php?id=2033723&redirect=1'); return false; };
+
+    require(['core/yui'], function(Y) {
+            Y.on('click', openpopup, '#action_link5c45f61faedbc20', null, {"url":"https:\/\/moodle.wit.ie\/mod\/book\/tool\/print\/index.php?id=2033726","name":"popup","options":"height=400,width=500,top=0,left=0,menubar=0,location=0,scrollbars,resizable,toolbar,status,directories=0,fullscreen=0,dependent"});
+    });
+;
+
+    require(['core/yui'], function(Y) {
+            Y.on('click', openpopup, '#action_link5c45f61faedbc21', null, {"url":"https:\/\/moodle.wit.ie\/mod\/book\/tool\/print\/index.php?id=2033726&chapterid=62834","name":"popup","options":"height=400,width=500,top=0,left=0,menubar=0,location=0,scrollbars,resizable,toolbar,status,directories=0,fullscreen=0,dependent"});
+    });
+;
+
+require(['jquery', 'message_popup/message_popover_controller'], function($, controller) {
+    var container = $('#nav-message-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+    require(['core/yui'], function(Y) {
+            Y.on('click', openpopup, '#action_link5c45f61faedbc44', null, {"url":"https:\/\/moodle.wit.ie\/mod\/book\/tool\/print\/index.php?id=2033726","name":"popup","options":"height=400,width=500,top=0,left=0,menubar=0,location=0,scrollbars,resizable,toolbar,status,directories=0,fullscreen=0,dependent"});
+    });
+;
+
+    require(['core/yui'], function(Y) {
+            Y.on('click', openpopup, '#action_link5c45f61faedbc45', null, {"url":"https:\/\/moodle.wit.ie\/mod\/book\/tool\/print\/index.php?id=2033726&chapterid=62834","name":"popup","options":"height=400,width=500,top=0,left=0,menubar=0,location=0,scrollbars,resizable,toolbar,status,directories=0,fullscreen=0,dependent"});
+    });
+;
+
+        require(['jquery'], function($) {
+            $('#jump-to-activity').change(function() {
+                $('#url_select_f5c45f61faedbc46').submit();
+            });
+        });
+    ;
+
+require(['theme_boost/loader']);
+require(['theme_boost/drawer'], function(mod) {
+    mod.init();
+});
+;
+
+require(['jquery'], function($) {
+    $('.tag_list .tagmorelink').click(function(e) {
+        e.preventDefault();
+        $(this).closest('.tag_list').removeClass('hideoverlimit');
+    });
+    $('.tag_list .taglesslink').click(function(e) {
+        e.preventDefault();
+        $(this).closest('.tag_list').addClass('hideoverlimit');
+    });
+});
+;
+require(["core/notification"], function(amd) { amd.init(3125942, []); });;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+});
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","ok":"OK","cancel":"Cancel","movecontent":"Move {$a}","tocontent":"To item \"{$a}\"","emptydragdropregion":"empty region","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-filter_glossary-autolinker",function() {M.filter_glossary.init_filter_autolinking({"courseid":0});
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"en"});
+});
+M.util.help_popups.setup(Y);
+Y.on('domready', function() { Y.use("moodle-core-blocks",function() {M.core_blocks.init_dragdrop({"courseid":"96468","pagetype":"mod-book-view","pagelayout":"incourse","subpage":"","regions":["side-pre"],"contextid":3125942,"cmid":"2033726"});
+}); });
+ M.util.js_pending('random5c45f61faedbc47'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5c45f61faedbc47'); });
+})();
+//]]>
+</script>
+
+    </div>
+</footer>
+
+</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
